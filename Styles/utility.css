@@ -275,9 +275,7 @@
     flex-wrap: wrap;
 }
 
-.flex-one{
-    display: flex;
-}
+
 
 .flex-row {
     flex-direction: row;

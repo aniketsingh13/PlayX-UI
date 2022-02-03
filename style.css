@@ -1,9 +1,36 @@
 
 
-nav-container{
+
+.container{
+    flex-direction: column;
+}
+/*navigation */
+.nav-container{
+ justify-content: space-between;
+ max-width: 700px;
+ width: 80%;
+
   
 }
 
-.header-right{
+a{
+    text-decoration: none;
+}
+
+.icon-one{
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    
+}
+
+.icon-two{
+    font-size: 1.2rem;
+    color: var(--secodary-color);
+    font-weight: 400;
+}
+
+.icon-two:hover{
+    background-color: var(--primary-color-hover);
     
 }
