@@ -9,7 +9,7 @@ body {
 /*navigation */
 .nav-container {
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 930px;
     width: 80%;
 }
 
@@ -44,3 +44,33 @@ a {
 
 /* main-container */
 
+.paragraph{
+    max-width: 520px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+}
+
+.twin-button{
+       text-align: center;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--offwhite);
+    padding: .6rem;
+    box-shadow: 1px 4px 2px 1px rgba(0,0,0,.1);
+}
+
+.btn-secondary{
+    background-color: var(--offwhite);
+    padding: .65rem;
+    color: var(--secodary-color);
+    box-shadow: 1px 4px 2px 1px rgba(0,0,0,.1);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-color-hover);
+}
+.btn-secondary:hover{
+    background-color: var(--offwhite-hover);
+}
