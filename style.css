@@ -37,7 +37,7 @@ a {
 /* header hero */
 
 .hero-img {
-    max-width: 320px;
+    max-width: 280px;
 
     color: var(--primary-color);
 }
