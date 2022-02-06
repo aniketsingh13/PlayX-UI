@@ -27,3 +27,6 @@ a{
 
     border-style: hidden hidden solid hidden;
 }
+.logo__three{
+    color: var(--secodary-color);
+}
