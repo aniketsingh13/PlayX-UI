@@ -1,0 +1,29 @@
+/* navigation */
+.nav__container{
+    justify-content: space-between;
+    max-width: 930px;
+    width: 80%;
+}
+
+.doc_change{
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo__one{
+    color: var(--primary-color);
+}
+.logo__two{
+    color: var(--secodary-color);
+    transition: .3s;
+}
+
+.logo__two:hover{
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-color-hover);
+
+    border-style: hidden hidden solid hidden;
+}

@@ -292,4 +292,7 @@
     justify-content: center;
 }
 
-/* line height */
+/* body */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
