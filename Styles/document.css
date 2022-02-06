@@ -1,7 +1,13 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+
 /* navigation */
 .nav__container{
+    
     justify-content: space-between;
-    max-width: 930px;
+    max-width: 950px;
     width: 80%;
 }
 
@@ -30,3 +36,6 @@ a{
 .logo__three{
     color: var(--secodary-color);
 }
+
+/* aside__container */
+
