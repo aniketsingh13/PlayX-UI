@@ -85,3 +85,9 @@ span{
     line-height: 1.2;
     letter-spacing: 1px;
 }
+
+.name_para{
+    color: var(--paragraph-color);
+    line-height: 1.2;
+    letter-spacing: 1px; 
+}
