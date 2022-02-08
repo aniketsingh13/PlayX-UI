@@ -302,3 +302,15 @@ body {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* border-radius */
+.br-s{
+    border-radius: 50%;
+}
+
+.br-m{
+    border-radius: 60%;
+}
+.br-l{
+    border-radius: 70%;
+}
