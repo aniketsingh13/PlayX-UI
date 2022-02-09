@@ -10,4 +10,12 @@
     --paragraph-color: rgba(0, 0, 0, 0.609);
     --border-color: rgba(128, 128, 128, 0.513);
     --boxShadow-color: rgba(0,0,0,.1);
+    --example-color: #113CFC;
+    --example-background: #113cfc4b;
+    --success-color: #95CD41;
+    --success-background: #95cd4162;
+    --warning-color: #F76E11;
+    --warning-background: #f76d1171;
+    --danger-color: #FF1700;
+    --danger-background: #ff1500a2;
 }
