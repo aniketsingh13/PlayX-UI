@@ -1,0 +1,101 @@
+.button_intro {
+    color: var(--paragraph-color);
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+.button_type{
+    color: var(--primary-color-hover);
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.button{
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 150px;
+    gap: .5rem;
+    box-shadow: 1px 2px 1px 1px var(--boxShadow-color);
+    border-radius: 4px;
+}
+/*contained button */
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--offwhite);
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+}
+.btn-primary:hover{
+   background-color: var(--primary-color-hover);
+}
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--offwhite);
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+}
+.btn-secondary:hover{
+    background-color: var(--paragraph-color);
+}
+.btn-error{
+    background-color: var(--danger-color);
+    color: var(--offwhite);
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+}
+.btn-error:hover{
+  background-color: var(--danger-background);
+}
+.btn-succes{
+    background-color: var(--success-color);
+    color: var(--offwhite);
+    cursor: pointer;
+    border: none;
+      transition: .3s;
+}
+.btn-succes:hover{
+    background-color: var(--success-background);
+}
+/* outlined-button */
+.btn-primaryOutlined{
+     color: var(--primary-color);
+     border: 1px solid var(--primary-color);
+     transition: .3s;
+     cursor: pointer;
+}
+.btn-primaryOutlined:hover{
+    background-color: var(--primary-color);
+    color: var(--offwhite);
+}
+.btn-secodaryOutlined{
+    color: var(--secodary-color);
+     border: 1px solid var(--secondary-color);
+     transition: .3s;
+     cursor: pointer;
+}
+.btn-secodaryOutlined:hover{
+    background-color: var(--secondary-color);
+    color: var(--offwhite);
+}
+.btn-errorOutlined{
+    color: var(--danger-color);
+     border: 1px solid var(--danger-color);
+     transition: .3s;
+     cursor: pointer;
+}
+.btn-errorOutlined:hover{
+    background-color: var(--danger-color);
+    color: var(--offwhite);
+}
+.btn-successOutlined{
+    color: var(--success-color);
+     border: 1px solid var(--success-color);
+     transition: .3s;
+     cursor: pointer;
+}
+.btn-successOutlined:hover{
+    background-color: var(--success-color);
+    color: var(--offwhite);
+}
