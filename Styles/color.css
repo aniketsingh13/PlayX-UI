@@ -3,6 +3,7 @@
     --primary-color: #1D4ED8;
     --primary-color-hover: #3B82F6;
     --secondary-color: rgba(0, 0, 0, 0.89);
+    --secondary-hover: rgba(0, 0, 0, 0.548);
     --cta-color: #1D4ED8;
     --backgournd-color: rgb(255, 255, 255);
     --offwhite: #f5f5f5f6;
@@ -18,4 +19,5 @@
     --warning-background: #f76d1171;
     --danger-color: #FF1700;
     --danger-background: #ff1500a2;
+    --overlay-color: rgba(245, 245, 245, 0.801);
 }

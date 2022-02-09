@@ -50,3 +50,45 @@
     color: var(--secondary-color);
     background-color: var(--backgournd-color);
 }
+/* text and overlay */
+.card-overlay{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 13rem;
+    background-color: var(--overlay-color);
+    
+}
+/* horizotal image */
+.body-horzCard{
+    justify-content: space-around;
+}
+.card-info{
+    text-align: center;
+}
+.card-disc{
+    text-decoration: line-through;
+    color: var(--border-color);
+}
+.card-off{
+    color: var(--border-color);
+}
+.card-click{
+    text-align: center;
+}
+.card-cart{
+color: var(--backgournd-color);
+background-color: var(--primary-color-hover);
+cursor: pointer;
+}
+.card-cart:hover{
+    background-color: var(--primary-color);
+}
+.card-whislist{
+    color: var(--backgournd-color);
+background-color: var(--secondary-hover);
+cursor: pointer;
+}
+.card-whislist:hover{
+    background-color: var(--secondary-color);
+}
