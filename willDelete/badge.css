@@ -75,11 +75,34 @@
 }
 
 /* badge-text */
-.badges-number{
+.badges-number {
     border: 1px solid var(--border-color);
     width: 100%;
     height: 150px;
-    gap: .5rem;
+    gap: 1rem;
     box-shadow: 1px 2px 1px 1px var(--boxShadow-color);
     border-radius: 4px;
+}
+
+.badge {
+    position: relative;
+}
+
+.badge-greenNumber{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    bottom: 1.3rem;
+    left: 1.6rem;
+    position: absolute;
+    color: var(--offwhite);
+}
+.badge-rednumber{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    bottom: 1.3rem;
+    left: 1.6rem;
+    position: absolute;
+    color: var(--offwhite);
 }
