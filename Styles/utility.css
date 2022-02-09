@@ -33,6 +33,9 @@
 }
 
 /* varient padding */
+.p-xss{
+    padding: .3rem;
+}
 
 .p-xs {
     padding: 0.5rem;
