@@ -99,3 +99,13 @@
     background-color: var(--success-color);
     color: var(--offwhite);
 }
+/* icon button */
+.btn-icon{
+background-color: var(--primary-color);
+color: var(--offwhite);
+border: none;
+transition: .3s;
+}
+.btn-icon:hover{
+    background-color: var(--primary-color-hover);
+}
