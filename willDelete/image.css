@@ -1,0 +1,20 @@
+.image-intro{
+    color: var(--paragraph-color);
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+.Image-note{
+    color: var(--primary-color-hover);
+}
+.responsive-image{
+    width: 100%;
+    height: auto;
+}
+.image-container{
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 150px;
+    gap: .5rem;
+    box-shadow: 1px 2px 1px 1px var(--boxShadow-color);
+    border-radius: 4px;
+}
