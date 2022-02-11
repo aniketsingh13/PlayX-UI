@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayX-Badge</title>
+    <link rel="stylesheet" href="../Styles/badge.css" />
+    <link rel="stylesheet" href="../Styles/main.css" />
+
+    <script src="https://kit.fontawesome.com/fa50d5d333.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container flex flex-center">
+        <!--   nav container  -->
+        <nav class=" nav__container flex p-m">
+            <div class="left__nav f-l font-l"><a class="logo__one" href="/index.html">PlayX</a></div>
+
+            <ul class="right__nav flex  font-m">
+                <li class="doc_change pr-m ">
+                    <a class="logo__two" href="../Pages/document.html">Documentation</a>
+                </li>
+                <li class="pr-m f-l">
+                    <a href="https://github.com/aniketsingh13/PlayX-UI" class="logo__three" target="blank"><i
+                            class="fab fa-github"></i></a>
+                </li>
+                <li class="pr-m f-l">
+                    <a class="logo__three" href="https://twitter.com/ANIKETS42266714" target="blank"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+                <li class=" f-l">
+                    <a class="logo__three" href="https://www.linkedin.com/in/aniket-singh-3332a5198/" target="blank"><i
+                            class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <div class="center__container flex flex-center mt-xl">
+        <div class="container_aside_main flex">
+
+            <!--aside container  -->
+            <div class="aside__container font-m f-s ">
+                <ul class="">
+                    <li class="p-s "><a class="side_logo" href="../Pages/document.html">Getting Started</a></li>
+                    <li class="p-s"><a class="side_logo" href="Avatar.html">Avatar</a></li>
+                    <li class="p-s"><a class="side_logo" href="Alert.html">Alert</a></li>
+                    <li class="p-s"><a class="side_logo" href="badge.html">Badge</a></li>
+                    <li class="p-s"><a class="side_logo" href="">Button</a></li>
+                    <li class="p-s"><a class="side_logo" href="">Card</a></li>
+                    <li class="p-s"><a class="side_logo" href="">Image</a></li>
+                    <li class="p-s"><a class="side_logo" href="">Input</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!--main-container-->
+            <div class="main__container">
+                <h3 class="p-xs f-l font-xxl">Badge</h3>
+                <div class="badge_intro  p-xs">Badges are small circles, positioned either at top-right or bottom-right
+                    of the parent component</div>
+                <div class="badge_intro  p-xs">Profile Badge is used to show the current status of a user</div>
+                <div class="badge_type p-xs">It can be used with 3 variants : online | offline | dnd</div>
+                <div class="badge_image mt-l flex flex-center">
+                    <div class="badge_variant">
+                        <image class="badge-green br-s "
+                            src="../Assets/spiderman-into-spider-verse-5k-7b-2048x2048-1020x1020.jpg" alt="Avatar" />
+                        <span class="badge-online br-s"></span>
+                    </div>
+                    <div class="badge_variant">
+                        <image class="badge-gray br-s "
+                            src="../Assets/spiderman-into-spider-verse-5k-7b-2048x2048-1020x1020.jpg" alt="Avatar" />
+                        <span class="badge-ofline br-s"></span>
+                    </div>
+                    <div class="badge_variant">
+                        <image class="badge-red br-s "
+                            src="../Assets/spiderman-into-spider-verse-5k-7b-2048x2048-1020x1020.jpg" alt="Avatar" />
+                        <span class="badge-dnd br-s"></span>
+                    </div>
+                </div>
+                <iframe class="mt-l mb-l" loading="lazy"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522badge_variant%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimage%2520class%253D%2522badge-green%2520br-s%2520%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FAssets%252Fspiderman-into-spider-verse-5k-7b-2048x2048-1020x1020.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-online%2520br-s%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_variant%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimage%2520class%253D%2522badge-gray%2520br-s%2520%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FAssets%252Fspiderman-into-spider-verse-5k-7b-2048x2048-1020x1020.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-ofline%2520br-s%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_variant%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimage%2520class%253D%2522badge-red%2520br-s%2520%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FAssets%252Fspiderman-into-spider-verse-5k-7b-2048x2048-1020x1020.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-dnd%2520br-s%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <!--Icon badges with number-->
+                <div class="badge_intro  p-xs">Number Badge is used to show the no. of items present in the parent
+                    component.
+                    <div class="badges-number mt-l flex flex-center">
+                        <div class="badge">
+                            <i class="fa fa-shopping-cart badge-icon relative f-l"></i>
+
+                            <span class="badge-greenNumber br-s">10</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fa fa-envelope badge-icon relative f-l"></i>
+                            <span class="badge-rednumber br-s">15</span>
+                        </div>
+                    </div>
+                    <iframe class="mt-l mb-l" loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520badge-icon%2520relative%2520f-l%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-greenNumber%2520br-s%2522%253E10%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2520badge-icon%2520relative%2520f-l%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-rednumber%2520br-s%2522%253E15%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
