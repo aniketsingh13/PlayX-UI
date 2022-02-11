@@ -75,19 +75,19 @@
 .card-click{
     text-align: center;
 }
-.card-cart{
+.card-cart-btn{
 color: var(--backgournd-color);
 background-color: var(--primary-color-hover);
 cursor: pointer;
 }
-.card-cart:hover{
+.card-cart-btn:hover{
     background-color: var(--primary-color);
 }
-.card-whislist{
+.card-whislist-btn{
     color: var(--backgournd-color);
 background-color: var(--secondary-hover);
 cursor: pointer;
 }
-.card-whislist:hover{
+.card-whislist-btn:hover{
     background-color: var(--secondary-color);
 }
