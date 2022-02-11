@@ -11,15 +11,6 @@
     box-shadow: 1px 2px 1px 1px var(--boxShadow-color);
     border-radius: 4px;
 }
-/*spaced list */
 .spaced-list{
     text-decoration: underline;
-}
-/*Stacked list */
-.stacked-list{
-    border: 1px solid var(--border-color);
-    border-style: hidden hidden solid hidden;
-}
-.list-item{
-    color: var(--secondary-color);
 }
