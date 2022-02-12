@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayX-modal</title>
+    <link rel="stylesheet" href="../Styles/modal.css" />
+    <link rel="stylesheet" href="../Styles/main.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <div class="container flex flex-center">
+        <!--   nav container  -->
+        <nav class=" nav__container flex p-m">
+            <div class="left__nav f-l font-l"><a class="logo__one" href="/index.html">PlayX</a></div>
+
+            <ul class="right__nav flex  font-m">
+                <li class="doc_change pr-m ">
+                    <a class="logo__two" href="../Pages/document.html">Documentation</a>
+                </li>
+                <li class="pr-m f-l">
+                    <a href="https://github.com/aniketsingh13/PlayX-UI" class="logo__three" target="blank"><i
+                            class="fab fa-github"></i></a>
+                </li>
+                <li class="pr-m f-l">
+                    <a class="logo__three" href="https://twitter.com/ANIKETS42266714" target="blank"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+                <li class=" f-l">
+                    <a class="logo__three" href="https://www.linkedin.com/in/aniket-singh-3332a5198/" target="blank"><i
+                            class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <div class="center__container flex flex-center mt-xl">
+        <div class="container_aside_main flex">
+
+            <!--aside container  -->
+            <div class="aside__container font-m f-s ">
+                <ul>
+                    <li class="p-s "><a class="side_logo" href="../Pages/document.html">Getting Started</a></li>
+                    <li class="p-s"><a class="side_logo" href="Avatar.html">Avatar</a></li>
+                    <li class="p-s"><a class="side_logo" href="Alert.html">Alert</a></li>
+                    <li class="p-s"><a class="side_logo" href="badge.html">Badge</a></li>
+                    <li class="p-s"><a class="side_logo" href="button.html">Button</a></li>
+                    <li class="p-s"><a class="side_logo" href="card.html">Card</a></li>
+                    <li class="p-s"><a class="side_logo" href="image.html">Image</a></li>
+                    <li class="p-s"><a class="side_logo" href="input.html">Input</a></li>
+                    <li class="p-s"><a class="side_logo" href="">List</a></li>
+                    <li class="p-s"><a class="side_logo" href="modal.html">Modal</a></li>
+                    <li class="p-s"><a class="side_logo" href="">Toast</a></li>
+                    <li class="p-s"><a class="side_logo" href="">Grid</a></li>
+                </ul>
+
+            </div>
+
+
+            <!--main-container-->
+            <div class="main__container">
+                <h3 class="p-xs f-l font-xxl">Modal</h3>
+                <div class="modal-intro  p-xs"> Modal can be used to display alert popups, videos, and images on any
+                    page of your site.</div>
+                <div class="modal-container mt-l flex flex-center">
+                    <div class="modal ">
+                        <div class="header p-xs">
+                            Remove Item
+                        </div>
+                        <div class="body p-xs modal-intro">
+                            Are you sure want to remove this product from cart?
+                        </div>
+                        <div class="footer p-xs ">
+                            <button class="modal-primary p-xss f-s font-l">cancel</button>
+                            <button class="modal-secondary p-xss f-s font-l">remove</button>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="mt-l mb-l" loading="lazy"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2520p-xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520You%2520want%2520to%2520remove%2520this%2520item%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522body%2520p-xs%2520modal-intro%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Item%2520description%2520goes%2520here%252C%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520industry.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2520p-xs%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-primary%2520p-xss%2520f-s%2520font-l%2522%253Ecancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-secondary%2520p-xss%2520f-s%2520font-l%2522%253Eremove%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+        </div>
+</body>
+
+</html>
