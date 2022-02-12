@@ -1,10 +1,8 @@
 
 /* navigation */
 .nav__container{
-    
-    justify-content: space-between;
-    max-width: 950px;
-    width: 80%;
+     justify-content: space-between;
+     width: 80%;
 }
 
 .doc_change{
@@ -35,7 +33,7 @@ a{
 
 /* center-container */
 .container_aside_main{
-    max-width: 1000px;
+   
     width: 80%;
 }
 

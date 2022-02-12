@@ -10,7 +10,6 @@
 /*navigation */
 .nav-container {
     justify-content: space-between;
-    max-width: 930px;
     width: 80%;
 }
 
@@ -38,14 +37,14 @@ a {
 /* header hero */
 
 .hero-img {
-    max-width: 280px;
+    width: 17.5rem;
     color: var(--primary-color);
 }
 
 /* main-container */
 
 .paragraph {
-    max-width: 520px;
+    max-width: 32.5rem;
     line-height: 1.6;
     letter-spacing: 1px;
     color: var(--primary-color);
