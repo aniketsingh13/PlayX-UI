@@ -253,6 +253,9 @@
 .font-xs {
     font-weight: 300;
 }
+.font-xss {
+    font-weight: 450;
+}
 
 .font-s {
     font-weight: 600;
