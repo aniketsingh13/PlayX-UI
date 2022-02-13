@@ -305,11 +305,8 @@
     align-items: center;
     justify-content: center;
 }
-/* body */
-body{
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    }
+
+
     
 /* border-radius */
 .br-s{
