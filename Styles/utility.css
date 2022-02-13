@@ -307,10 +307,10 @@
 }
 /* body */
 body{
-box-sizing: border-box;
-font-family: 'Montserrat', sans-serif;
-}
-
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
 /* border-radius */
 .br-s{
     border-radius: 50%;
