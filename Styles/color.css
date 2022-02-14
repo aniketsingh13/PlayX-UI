@@ -1,5 +1,5 @@
 :root {
-    
+    --default-font-size: 87.5%;
     --primary-color: #1D4ED8;
     --primary-color-hover: #3B82F6;
     --secondary-color: rgba(0, 0, 0, 0.89);
