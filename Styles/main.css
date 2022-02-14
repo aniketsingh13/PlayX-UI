@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap');
+
 @import "./reset.css";
 @import "./utility.css";
 @import "./color.css";
@@ -19,4 +21,5 @@
 
 body{
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
   }
