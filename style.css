@@ -5,14 +5,11 @@
 }
 
 /*navigation */
-.nav-container {
+.nav-containerOne {
     justify-content: space-between;
     width: 80%;
 }
 
-a {
-    text-decoration: none;
-}
 
 .icon-one {
     color: var(--primary-color);
