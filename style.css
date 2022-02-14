@@ -1,4 +1,10 @@
 @import url("Styles/main.css");
+.body{
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .container {
     display: flex;
@@ -71,28 +77,4 @@
 
 .btn-secondary:hover {
     background-color: var(--secondary-hover);
-}
-@media screen and (max-width : 1200px){
-    .container{
-        width: 90%;
-    }
-}
-
-
-@media screen and (max-width : 800px){
-
-    nav{
-        padding: 2.5rem 1rem;
-    }
-
-}
-
-@media screen and (max-width : 600px){
-    .container{
-        width: 100%;
-    }
-    
-    nav{
-        padding: 1rem;
-    }
 }
