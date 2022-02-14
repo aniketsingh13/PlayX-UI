@@ -1,4 +1,9 @@
-
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    font-family: 'Montserrat', sans-serif;
+}
 /* navigation */
 .nav__container{
      justify-content: space-between;
