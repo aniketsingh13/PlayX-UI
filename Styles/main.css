@@ -2,6 +2,9 @@
 @import "./utility.css";
 @import "./color.css";
 @import "./document.css";
+
+/* component */
+
 @import "./Alert.css";
 @import "./Avatar.css";
 @import "./badge.css";
@@ -16,5 +19,4 @@
 
 body{
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
   }
