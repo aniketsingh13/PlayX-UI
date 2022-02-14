@@ -1,6 +1,5 @@
 @import url("Styles/main.css");
 .container {
-    display: flex;
     flex-direction: column;
 }
 
