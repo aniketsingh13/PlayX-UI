@@ -42,11 +42,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    font-family: 'Montserrat', sans-serif;
 }
-
