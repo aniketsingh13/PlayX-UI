@@ -48,3 +48,6 @@ body{
     height: max-content;
     font-family: 'Montserrat', sans-serif;
 }
+a{
+	text-decoration: none;
+}

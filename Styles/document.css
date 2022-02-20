@@ -1,47 +1,18 @@
-
+@import "../style.css";
 /* navigation */
-.nav__container{
-     justify-content: space-between;
-    width: 80%;
-}
-
-.doc_change{
-    align-self: center;
-}
-a{
-    text-decoration: none;
-}
-
-.logo__one{
-    color: var(--primary-color);
-}
-.logo__two{
-    color: var(--secodary-color);
+.nav-icon{
+    color: var(--offwhite);
     transition: .3s;
 }
-
-.logo__two:hover{
-    background-color: var(--background-color);
-    border: 1px solid var(--primary-color-hover);
-
-    border-style: hidden hidden solid hidden;
+.nav-icon:hover{
+    color: var(--danger-color);
 }
-.logo__three{
-    color: var(--secodary-color);
-}
-
 /* center-container */
-.container_aside_main{
-    width: 80%;
-}
-
 /* aside__container */
 
 .aside__container{
     text-align: center;
     flex: 1;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 .side_logo{
 color: var(--primary-color);
@@ -56,7 +27,7 @@ transition: .3s;
 
 /* main-container */
 .main__container{
-    flex: 4; 
+    flex: 3; 
 }
 
 .intro{

@@ -8,88 +8,71 @@
     <title>PlayX-UI : Documentation</title>
     <link rel="stylesheet" href="../Styles/document.css" />
     <link rel="stylesheet" href="../Styles/main.css" />
-    <link rel="icon" href="../Assets/Screenshot 2022-02-12 222538.png" type="image/png"/>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="icon" href="../Assets/Screenshot 2022-02-12 222538.png" type="image/png" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
-    <div class="container flex flex-center">
-        <!--   nav container  -->
-        <nav class=" nav__container flex p-m">
-            <div class="left__nav f-l font-l"><a class="logo__one" href="/index.html">PlayX</a></div>
 
-            <ul class="right__nav flex  font-m">
-                <li class="doc_change pr-m ">
-                    <a class="logo__two" href="../Pages/document.html">Documentation</a>
-                </li>
-                <li class="pr-m f-l">
-                    <a href="https://github.com/aniketsingh13/PlayX-UI" class="logo__three" target="blank"><i
-                            class="fab fa-github"></i></a>
-                </li>
-                <li class="pr-m f-l">
-                    <a class="logo__three" href="https://twitter.com/ANIKETS42266714" target="blank"><i
-                            class="fab fa-twitter"></i></a>
-                </li>
-                <li class=" f-l">
-                    <a class="logo__three" href="https://www.linkedin.com/in/aniket-singh-3332a5198/" target="blank"><i
-                            class="fab fa-linkedin"></i></a>
-                </li>
+    <!--   nav container  -->
+    <nav class="nav-containerOne flex  p-m">
+        <div class="nav-brand font-xl f-l"><a class="nav-icon-left" href="../index.html">PlayX</a></div>
+        <ul class=" flex flex-center ">
+            <li class=" f-m"><a href="https://github.com/aniketsingh13" class="nav-icon" target="blank"><i class="fab fa-github"></i></a></li>
+            <li class="pl-m f-m"><a href="https://twitter.com/ANIKETS42266714" class="nav-icon" target="blank"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="pl-m f-m"><a href="https://www.linkedin.com/in/aniket-singh-3332a5198/" class="nav-icon" target="blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="flex mt-s">
+        <!--aside container  -->
+        <aside class="aside__container font-m f-s f ">
+            <ul class="">
+                <li class="p-s "><a class="side_logo" href="document.html">Getting Started</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/Avatar.html">Avatar</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/Alert.html">Alert</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/badge.html">Badge</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/button.html">Button</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/card.html">Card</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/image.html">Image</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/input.html">Input</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/list.html">List</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/modal.html">Modal</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/toast.html">Toast</a></li>
+                <li class="p-s"><a class="side_logo" href="../Components/grid.html">Grid</a></li>
+            </ul>
+        </aside>
+        <!--center-container-->
+        <div class="main__container ">
+            <h2 class="intro__heading p-xs font-xxl f-m">Introduction to PlayX-UI</h2>
+            <div class="intro p-xs font-xss pl-s"><span>PlayX</span> is a lightweight and modular front-end
+                framework
+                for developing fast and powerful web interfaces.
+            </div>
+            <h2 class="intro p-xs font-xss pl-s">Installation Guide</h2>
+            <div class="para p-xs font-xss pl-s">
+                <p>In order to introduce PlayX-UI to your project, Copy the Link
+                    given
+                    below and paste it in the tag of your html, above all other style sheets.
+                </p>
+            </div>
+            <iframe class="mt-l" loading="lazy"
+                src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=https%253A%252F%252Fplayx-ui.netlify.app%252Fstyles%252Fmain.css"
+                style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2 class="p-xs pt-l f-m font-s">Reference</h2>
+            <ul class="p-xs">
+                <li class="reference_para font-xss">1. Icons from fontawesome </li>
+                <li class="reference_para font-xss">2. Images from google</li>
             </ul>
 
-        </nav>
-    </div>
-
-    <div class="center__container flex flex-center mt-xl">
-        <div class="container_aside_main flex">
-
-            <!--aside container  -->
-            <div class="aside__container font-m f-s ">
-                <ul class="">
-                    <li class="p-s "><a class="side_logo" href="document.html">Getting Started</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/Avatar.html">Avatar</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/Alert.html">Alert</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/badge.html">Badge</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/button.html">Button</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/card.html">Card</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/image.html">Image</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/input.html">Input</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/list.html">List</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/modal.html">Modal</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/toast.html">Toast</a></li>
-                    <li class="p-s"><a class="side_logo" href="../Components/grid.html">Grid</a></li>
-                </ul>
-
-            </div>
-
-
-            <!--main-container-->
-            <div class="main__container">
-                <h2 class="intro__heading p-xs font-xxl f-m">Introduction to PlayX-UI</h2>
-                <div class="intro p-xs font-xss pl-s"><span>PlayX</span> is a lightweight and modular front-end framework
-                    for developing fast and powerful web interfaces.
-                </div>
-                <h2 class="intro p-xs font-xss pl-s">Installation Guide</h2>
-                <div class="para p-xs font-xss pl-s">
-                    <p>In order to introduce PlayX-UI to your project, Copy the Link
-                        given
-                        below and paste it in the tag of your html, above all other style sheets.
-                    </p>
-                </div>
-                <iframe class="mt-l" loading="lazy"
-  src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=https%253A%252F%252Fplayx-ui.netlify.app%252Fstyles%252Fmain.css"
-  style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-</iframe>
-                <h2 class="p-xs pt-l f-m font-s">Reference</h2>
-                <ul class="p-xs">
-                    <li class="reference_para font-xss">1. Icons from fontawesome </li>
-                    <li class="reference_para font-xss">2. Images from google</li>
-                </ul>
-
-                <p class="name_para p-xs pt-s font-xss">Made with code💻 by Aniket Singh</p>
-            </div>
+            <p class="name_para p-xs pt-s font-xss">Made with code💻 by Aniket Singh</p>
         </div>
+    </main>
 
 </body>
 
