@@ -6,7 +6,6 @@
     background-color: var(--primary-color);
     position: sticky;
     top: 0;
-    z-index: 2;
 }
 
 .nav-icon-left {
@@ -15,36 +14,31 @@
 
 .nav-icon-right {
     color: var(--offwhite);
-    transition: .3s;
+    transition: .8s;
 }
 
-.icon-two:hover {
-    background-color: var(--background-color);
-    border: 1px solid var(--primary-color-hover);
-
+.nav-icon-right:hover {
+    border: 2px solid var(--primary-color-hover);
     border-style: hidden hidden solid hidden;
 }
 
-/* header hero */
-
-.hero-img {
-    width: 17.5rem;
-    color: var(--primary-color);
-}
-
 /* main-container */
-
+.center-container {
+    color: var(--primary-color);
+    
+}
+.hero-img{
+   max-width: 42.5rem;
+}
+.twin-btn{
+    text-align: center;
+}
 .paragraph {
-    max-width: 28rem;
+    max-width: 29rem;
     line-height: 1.6;
     letter-spacing: 1px;
     color: var(--primary-color);
 }
-
-.twin-button {
-    text-align: center;
-}
-
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--offwhite);
@@ -67,4 +61,20 @@
 
 .btn-secondary:hover {
     background-color: var(--secondary-hover);
+}
+/* footer */
+.footer-home {
+    background-color: var(--primary-color);
+    padding: .8rem 1rem;
+    text-align: center;
+    color: var(--offwhite);
+}
+
+.footer-homeicon {
+    color: var(--offwhite);
+    transition: .3s;
+}
+
+.footer-homeicon:hover {
+    color: var(--danger-color);
 }
