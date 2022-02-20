@@ -1,19 +1,20 @@
-@import url("Styles/main.css");
+@import "./Styles/main.css";
 
 /*navigation */
 .nav-containerOne {
-    justify-content: space-around;
-   
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
-
-.icon-one {
-    color: var(--primary-color);
+.nav-icon-left {
+    color: var(--offwhite);
 }
 
-.icon-two {
-
-    color: var(--secodary-color);
+.nav-icon-right {
+    color: var(--offwhite);
     transition: .3s;
 }
 
