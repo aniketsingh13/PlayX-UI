@@ -16,7 +16,6 @@ Include CSS file mentioned in [installation section](https://playx-ui.netlify.ap
 
 - HTML
 - CSS
-- JavaScript
 
 # Component
 
