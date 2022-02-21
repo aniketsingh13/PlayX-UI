@@ -69,7 +69,9 @@
     padding: .8rem 1rem;
     text-align: center;
     color: var(--offwhite);
+    margin: 0;
 }
+
 
 .footer-homeicon {
     color: var(--offwhite);
