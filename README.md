@@ -1,7 +1,6 @@
 # PlayX-ui
  ### It is a lightweight and modular front-end framework for developing fast and powerful web interfaces.
 
-![image](./Assets/Screenshot 2022-02-12 222538.png)
 
 # Installation Steps
 
