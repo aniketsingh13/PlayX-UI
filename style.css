@@ -26,7 +26,7 @@
 /* main-container */
 .center-container {
     color: var(--primary-color);
-    
+
 }
 .hero-img{
    max-width: 42.5rem;
@@ -69,9 +69,7 @@
     padding: .8rem 1rem;
     text-align: center;
     color: var(--offwhite);
-    margin-top: auto;
 }
-
 
 .footer-homeicon {
     color: var(--offwhite);
@@ -81,3 +79,6 @@
 .footer-homeicon:hover {
     color: var(--danger-color);
 }
+
+
+    
