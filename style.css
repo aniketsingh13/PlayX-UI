@@ -69,9 +69,7 @@
     padding: .8rem 1rem;
     text-align: center;
     color: var(--offwhite);
-    margin-top: auto;
 }
-
 
 .footer-homeicon {
     color: var(--offwhite);
@@ -80,4 +78,9 @@
 
 .footer-homeicon:hover {
     color: var(--danger-color);
+}
+@media screen and (max-width: 1280px){
+  .footer-home{
+    margin-top: auto;
+  }
 }
